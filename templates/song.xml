@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song id="">
+    <title>Scary monster and nice spirites</title>
+    <artist>
+        <artist id ="1">Skrillex</artist>
+        <artist id ="2">Aviici</artist>  
+    </artist>
+   <generes> 
+        <genere id =""/> 
+        <genere id =""/>  
+    </generes>
+    <duration seconds=""/>
+    <lyrics>
+        <lyrics lang="en" format="str">
+        </lyrics>
+    <album id =""/>
+    <record_label id =""/>
+
+
+ 
+</song>
