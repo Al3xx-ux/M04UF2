@@ -2,13 +2,13 @@
 
 
 from bs4 import BeautifulSoup
+import sys
 
 
-
-albums_path ="album/"
-artists_path = "artist/"
-songs_path = "song/"
-genres_path = "genre/"
+ALBUM_PATH ="data-music/album/"
+ARTIST_PATH = "data-music/artists/"
+SONG_PATH = "data-music/songs/"
+GENERE_PATH = "data-music/genere/"
 
 
 version = 0.5
@@ -37,8 +37,6 @@ def main_menu():
         else:
             print("Please enter a valid number.")
 
-mainmenu = main_menu()
-print("Option selected:", mainmenu)
 
 def album_menu():
     while True:
@@ -57,8 +55,6 @@ def album_menu():
         else:
             print("Please enter a valid number.")
 
-albummenu = album_menu()
-print("Option selected:", albummenu)
 
 def song_menu():
     while True:
@@ -78,8 +74,6 @@ def song_menu():
         else:
             print("Please enter a valid number.")
 
-songs_menu = song_menu()
-print("Option selected:", songs_menu)
 
 def artist_menu():
     while True:
@@ -99,8 +93,6 @@ def artist_menu():
         else:
             print("Please enter a valid number.")
 
-artistmenu = artist_menu()
-print("Option selected:", artistmenu)
 def genre_menu():
     while True:
         print("\n--- Genres menu ---")
@@ -121,9 +113,53 @@ def genre_menu():
 
 
             
-genremenu = genre_menu()
-print("Option selected:", genremenu)
+
+def open_xml(file_path):
+    album_xml = open(file_path, "r").read()
+    return BeautifulSoup(album_xml, 'xml')
 
 
-def load_menu (album_num):
+def load_album (album_num):
+    global ALBUM_PATH
     file_name = "album" + str(album_num) + ".xml"
+    file_path = ALBUM_PATH + file_name
+    album_xml = open_xml(file_path)
+    
+    album = {
+        "id":1,
+        "title":"Title",
+        "cover":"IMAGE",
+        "artists": [
+            {
+                "id":1,
+                "title":"...."
+           
+
+            },
+            {
+                "id":2,
+                "title":"...."
+           
+
+            },
+        ],
+        "songs": [
+            {
+                "id":1,
+                "title":"...."
+            },
+            {
+                "id":2,
+                "title":"...."
+        
+            },  
+            ]
+         
+        }
+    return album_xml
+
+
+print (load_album(2))
+sys.exit()
+
+main_menu()

@@ -1,0 +1,26 @@
+<song id="1">
+    <title>Scary monster and nice spirites</title>
+    <artist>
+        <artist id ="1">Skrillex</artist>  
+    </artist>
+   <generes> 
+        <genere id ="1"/>      
+    </generes>
+    <duration seconds="243"/>
+    <lyrics>
+        <lyrics lang="en" format="str">
+        I'm just like you, you don't need, just like you
+Yes, oh, my God!
+I'm just like you, you don't need, just like you
+Yes, oh, my God!
+I'm just like you, you don't need, just like you
+Look at this
+I'm a coward too
+You don't need to hide, my friend
+For I'm just like you
+        </lyrics>
+    <album id ="1"/>
+   
+
+ 
+</song>
