@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artist id="">
+    <name>Saiko</name>
+    <nationality country="es" />
+    <birthdate date="2002-05.25" />
+    
+
+    <albums> 
+        <album id="1" />
+    </albums>
+
+</artist>

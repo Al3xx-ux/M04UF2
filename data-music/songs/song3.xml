@@ -1,0 +1,27 @@
+<song id="3">
+    <title>Otra noche en miami</title>
+    <artist>
+        <artist id ="3">Bad buny</artist>  
+    </artist>
+   <generes> 
+        <genere id ="3"/>      
+    </generes>
+    <duration seconds="213"/>
+    <lyrics>
+        <lyrics lang="es" format="str">
+Diez en punto de la noche y salgo como de costumbre
+Prendas en diamantes que ceguen cuando me alumbre
+Me diferencio de la muchedumbre
+A mi estilo puede que no te acostumbre'
+No sé si irme en el Mercedes o en el Maserati
+Modelos extranjeras que me dicen: "papi"
+Están tirando al cel, ya me quieren ver (ah)
+Seguramente, ya están locas por coger
+
+
+        </lyrics>
+    <album id ="3"/>
+   
+
+ 
+</song>

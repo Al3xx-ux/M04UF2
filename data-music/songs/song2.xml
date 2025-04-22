@@ -1,0 +1,26 @@
+<song id="2">
+    <title>Cafe malibu</title>
+    <artist>
+        <artist id ="2">Saiko</artist>  
+    </artist>
+   <generes> 
+        <genere id ="2"/>      
+    </generes>
+    <duration seconds="254"/>
+    <lyrics>
+        <lyrics lang="es" format="str">
+Dije que no lo vuelvo a intentar, con nadie vuelvo a salir
+Y tú me viene' a tentar con esa forma de reír
+Tengo miedo a que me guste y tú te pierdas
+Mal acostumbrao siempre a la misma mierda
+Yo te hice llegar pa después verte ir
+Te puedes quedar con mi Patek Philippe
+¿Y pa qué intentar
+Olvidarte, si todo me acuerda a ti?
+
+        </lyrics>
+    <album id ="2"/>
+   
+
+ 
+</song>
